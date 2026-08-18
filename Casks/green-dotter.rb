@@ -5,7 +5,7 @@ cask "green-dotter" do
   url "https://pub-1b4deb96fb394e94b8475c2142a4fa88.r2.dev/updates/#{version}/macos-universal/green-dotter-macos.app.tar.gz",
       verified: "pub-1b4deb96fb394e94b8475c2142a4fa88.r2.dev/"
   name "Green Dotter"
-  desc "Keeps the Mac active with cursor movement or clicks in a chosen area"
+  desc "Keeps the computer active with cursor movement or clicks in a chosen area"
   homepage "https://green-dotter.com/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "green-dotter" do
     regex(/app-version["'>\s]*v?(\d+(?:\.\d+)+)/i)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Green Dotter.app"
 
