@@ -12,7 +12,7 @@ cask "green-dotter" do
     regex(/app-version["'>\s]*v?(\d+(?:\.\d+)+)/i)
   end
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Green Dotter.app"
 
