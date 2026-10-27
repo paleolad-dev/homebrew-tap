@@ -1,6 +1,6 @@
 cask "green-dotter" do
-  version "2.14.2"
-  sha256 "95981d74e00408e0d8f2e4b519eb033e5435969b0a8a799654f423fc963ff85a"
+  version "2.15.0"
+  sha256 "c94cf1274723b385630dfe3657d79c69214cbfe9dfadc4af2d3662743ec4fc15"
 
   url "https://pub-1b4deb96fb394e94b8475c2142a4fa88.r2.dev/updates/#{version}/macos-universal/green-dotter-macos.app.tar.gz"
   name "Green Dotter"
